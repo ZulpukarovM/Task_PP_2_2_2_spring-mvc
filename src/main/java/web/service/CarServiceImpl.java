@@ -16,19 +16,6 @@ public class CarServiceImpl implements CarService {
             new Car("Camry", "white", 2500));
 
 
-//    @Override
-//    public List<Car> getCars(Integer count) {
-//        List<Car> carsCount = new ArrayList<>();
-//        if (count != null) {
-//            for (int i = 0; i < count && i < cars.size(); i++) {
-//                carsCount.add(cars.get(i));
-//            }
-//            return carsCount;
-//        } else {
-//            return cars;
-//        }
-//    }
-
     @Override
     public List<Car> getCars(Integer count) {
         try {
